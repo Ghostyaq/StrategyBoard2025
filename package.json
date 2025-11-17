@@ -2,7 +2,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite --host",
-        "build": "tsc && vite build",
+        "build": "gh-pages -d dist",
         "preview": "vite preview --host"
     },
     "devDependencies": {
