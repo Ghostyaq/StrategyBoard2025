@@ -1,7 +1,7 @@
-import { View } from "@/view.ts";
-import { Model } from "@/model.ts";
-import { Whiteboard } from "@/whiteboard.ts";
-import { QRImport, QRExport } from "@/qr.ts";
+import { View } from "./view.ts";
+import { Model } from "./model.ts";
+import { Whiteboard } from "./whiteboard.ts";
+import { QRImport, QRExport } from "./qr.ts";
 import { registerSW } from "virtual:pwa-register"
 
 registerSW({ immediate: true, onOfflineReady() {

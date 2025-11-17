@@ -1,5 +1,5 @@
-import { GET, GETMANY, SET, DEL, CLEAR, ENTRIES } from "@/db.ts";
-import { Match } from "@/match.ts";
+import { GET, GETMANY, SET, DEL, CLEAR, ENTRIES } from "./db.ts";
+import { Match } from "./match.ts";
 
 export class Model {
     public matches: Array<Match> = [];

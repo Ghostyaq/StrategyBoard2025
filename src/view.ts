@@ -1,7 +1,7 @@
-import { Model } from "@/model.ts";
-import { Whiteboard, updateCanvasSize } from "@/whiteboard.ts";
-import { Match } from "@/match.ts";
-import { QRImport, QRExport } from "@/qr.ts";
+import { Model } from "./model.ts";
+import { Whiteboard, updateCanvasSize } from "./whiteboard.ts";
+import { Match } from "./match.ts";
+import { QRImport, QRExport } from "./qr.ts";
 
 const get = document.getElementById.bind(document);
 
