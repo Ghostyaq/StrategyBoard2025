@@ -61,5 +61,5 @@ export default defineConfig({
             "@": new URL("./src", import.meta.url).pathname
         }
     },
-    base: "/StrategyBoard2025"
+    base: "/StrategyBoard2025/"
 });
